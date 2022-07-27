@@ -1,14 +1,14 @@
-# Autograding Example: Java
-This example project is written in Java, and tested with Gradle/JUnit.
+# 課題 15-1: 簡単なGUIプログラム
 
-### The assignment
-The tests are currently failing because of an output mismatch. Fixing the `System.out.println` in the main method will make the tests green.
+### 課題の説明
+教科書のコード15-8を参考にして、下に示したウィンドウの例と同じ部品（テキストと配色を含む）と順序で構成されるGUIプログラム `ProgF1` のコードを次の２条件を満たす形で作成しなさい。
 
-### Setup command
-N/A
+- ウィンドウのタイトル部分には 初めてののGUI に続けて `各自の学生番号` と `氏名` を表示する
+- ウィンドウのサイズとして、ウィンドウのタイトルが全て表示される横幅を設定する
 
-### Run command
-`gradle test`
+なお、部品のカラーコントロールは第15回の解説ページが参考になる
 
-### Notes
-- The JDK is installed on GitHub Actions machines, so you're also able to directly invoke `javac`, `java`, or any other CLI command included in the JDK. 
+（注意）本課題では、テストコードを提供しないので、作成したコードの実行結果を丁寧に確認してください。
+
+### ProgF1.main()を実行して表示されるウィンドウの例（作成者が 4720000 生命工太　の場合）
+
